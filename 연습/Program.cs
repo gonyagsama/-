@@ -16,11 +16,21 @@
                 Letter = "잘 지내지?",
                 Money = 100000
             };
-
+            Console.WriteLine("A 송장내용");
+            Console.WriteLine(a.Letter);
+            Console.WriteLine(a.Money);
             GiftBox 배송기사님 = a;
 
             a.Letter = "어떻게 지내고 있어?";
             a.Money = 150000;
+
+            Console.WriteLine("A 변경 이후 송장내용");
+            Console.WriteLine(a.Letter);
+            Console.WriteLine(a.Money);
+
+            Console.WriteLine("배송기사님 송장내용");
+            Console.WriteLine(배송기사님.Letter);
+            Console.WriteLine(배송기사님.Money);
         }
     }
 
